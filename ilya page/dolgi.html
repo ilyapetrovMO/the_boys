@@ -11,17 +11,29 @@
       padding-top: 0;
       margin: 0;
     }
+    
+    .odometer {
+    font-size: 100px;
+}
     </style>
+    <link rel="stylesheet" href="odometer-theme-plaza.css" />
+    <script src="odometer.js"></script>
 </head>
 <body>
+<script>
+setTimeout(function(){
+    odometer.innerHTML = 456;
+}, 1000);
+</script>
          <!-- Side navigation -->
 <div class="dolgi">
     <a href="ilyapetrov.html">На главную</a>
 </div>
-
   <div class="main">
-      <center><p style="font-size: 200pt;">11</p></center>
+      <div class="odometer">
+        <center><p style="font-size: 200pt;">11</p></center>
+      </div>
   </div>
-
+  <center><div id="odometer" class="odometer">123</div></center>
 </body>
 </html>
