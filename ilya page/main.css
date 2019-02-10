@@ -51,6 +51,10 @@ body{
     padding: 0px 10px;
   }
   .main p{
+      font-size: 14pt;
+  }
+
+  blockquote{
       font-size: 13pt;
   }
   
