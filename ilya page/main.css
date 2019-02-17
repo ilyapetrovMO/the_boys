@@ -69,6 +69,25 @@ body{
     margin-right: 0.25em;
     vertical-align: -0.4em;
   }
+  .container{
+    font-size: 20pt;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+}
+    .nDolg{
+        line-height: 0;
+        float: left;
+        font-size: 50vw;
+        flex-shrink: 1;
+    }
+    .lDolg{
+        margin-bottom: 0%;
+        flex-shrink: 1;
+        line-height: 100%;
+        float: right;
+        font-size: 9vw;
+    }
   
   /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
   @media screen and (max-height: 450px) {
