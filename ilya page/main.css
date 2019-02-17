@@ -76,17 +76,19 @@ body{
     align-content: flex-start;
 }
     .nDolg{
+        color: #ccc;
         line-height: 0;
         float: left;
-        font-size: 50vw;
+        font-size: 20vw;
         flex-shrink: 1;
     }
     .lDolg{
+        color: #ccc;
         margin-bottom: 0%;
         flex-shrink: 1;
         line-height: 100%;
         float: right;
-        font-size: 9vw;
+        font-size: 4vw;
     }
   
   /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
