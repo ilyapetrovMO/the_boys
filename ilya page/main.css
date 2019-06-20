@@ -25,6 +25,15 @@ body{
     color: #818181;
     display: block;
   }
+
+  .form{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+
   .dolgi a{
     padding: 6px 8px 6px 16px;
     text-decoration: none;
@@ -99,6 +108,3 @@ body{
   @media screen and (max-width: 1200px) {
     body{margin: 0%;}
   } 
-
-  <link rel="stylesheet" href="http://github.hubspot.com/odometer/themes/odometer-theme-car.css" />
-<script src="http://github.hubspot.com/odometer/odometer.js"></script>
