@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Долги</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+    <form action="dolgipost.php" name="dolgForm" method="POST">
+        Имя долга: <span id="getSelectTarget"></span><br>
+        <input type="radio" name="delorpost" value="post" checked> добавить<br>
+        <input type="radio" name="delorpost" value="delete"> удалить<br>
+        <input type="submit">
+    </form>
+    <p><span id="txtHint"></span></p>
+    <!--
+        <button onclick="getTableAjax('dolgi')">update table</button>
+    -->
+    <script>
+    getNumberAjax('dolgi');
+    getTableAjax('dolgi');
+    getSelect();
+    </script>
+    <div class="container">
+        <div class="nDolg">
+        <p id="numberAjax"></p>
+        </div>
+        <div class="lDolg">
+        <p id="tableAjax"></p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,4 +1,3 @@
-<?php include_once("dolgilogic.php") ?>
 
 <!DOCTYPE html>
 <html>
@@ -8,7 +7,6 @@
     <title>Долги</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css">
-    <script> type="text/javascript" src="dolgi.js"></script>
 </head>
 <body>
 
@@ -34,12 +32,10 @@ function validateForm(){
 
   <div class="container">
       <div class="nDolg">
-          <p>
-            <?php echo $ses; ?>
-          </p>
+        <!--тут номер долгов-->
     </div>
     <div class="lDolg">
-        <?php echo $resstring; ?>
+        <!-- тут долги-->
     </div>
         
   </div>
